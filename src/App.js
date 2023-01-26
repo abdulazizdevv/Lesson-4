@@ -145,8 +145,8 @@ function App() {
           right:"0px",
           left:"0px",
           margin:"auto",
-          width:"200px",
-          height:"200px"
+          width:"400px",
+          height:"400px"
         }} src={Loading} alt="load"/></h1> : ""}
         {country.isError ? <h1>{country.isError}</h1> : ""}
         {country.data.length ? (
