@@ -144,7 +144,7 @@ function App() {
           bottom:"0px",
           right:"0px",
           left:"0px",
-          margin:"0 auto",
+          margin:"auto",
           width:"200px",
           height:"200px"
         }} src={Loading} alt="load"/></h1> : ""}
