@@ -63,9 +63,11 @@ export const SingleUser = () => {
           {countrys.data.map((el) => (
             <div className='d-flex align-items-center flex-wrap justify-content-between'>
               <img
+              style={{width:"100%", maxWidth:"560px"}}
                 src={el.flags.svg}
                 alt='Country Img'
-                width='560px'
+                // max-width='560px'
+                // width="100%"
                 height='400px'
               />
               <div className='d-flex align-items-center justify-content-between w-50'>
