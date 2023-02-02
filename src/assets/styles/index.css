@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Nunito+Sans:wght@400;600;700;800&display=swap');
+
+.sections {
+    background-color: #F2F2F2;
+    color: black;
+}
+
+.dark {
+    background-color: #202C36;
+    color: #fff;
+}

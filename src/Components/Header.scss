@@ -4,25 +4,34 @@
     box-sizing: border-box;
 }
 .header{
-    padding-bottom: 50px;
+    padding-bottom: 35px;
 }
 
 .header-bar {
 
     display: flex;
-    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2);
+    // box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.0562443);
+    align-items: center;
     justify-content: space-between;
     font-family: sans-serif;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-left: 15px;
     height: 100px;
     background-color: rgb(255, 255, 255);
 }
 .mode{
+    font-family: Nunito Sans;
+    width: 120px;
+    height: 40px;
     gap: 10px;
     display: flex;
     align-items: center;
-    margin-top: -25px;
+    margin-top: -40px;
+    border: none;
+    // border-radius: 20px;
+    color: rgb(116, 116, 116);
+    background-color: transparent;
 }
 
 .moon {

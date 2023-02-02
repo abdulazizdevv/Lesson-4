@@ -61,7 +61,7 @@ export const SingleUser = () => {
       {countrys.data ? (
         <div className='container mb-5 pb-5 mt-4'>
           {countrys.data.map((el) => (
-            <div className='d-flex align-items-center justify-content-between'>
+            <div className='d-flex align-items-center flex-wrap justify-content-between'>
               <img
                 src={el.flags.svg}
                 alt='Country Img'

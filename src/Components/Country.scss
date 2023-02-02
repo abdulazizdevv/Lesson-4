@@ -1,13 +1,13 @@
 .all {
     margin-top: 45px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 10px;
 }
 
 .search-input {
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    // box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
 
     padding: 11px;
     width: 300px;
@@ -16,9 +16,9 @@
 }
 
 .select-country {
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
-
-    width: 300px;
+    // box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    // padding-top: 25px;
+    width: 300px;   
     border: 1px solid grey;
     border-radius: 10px;
 }

@@ -1,5 +1,5 @@
-*{
-    font-family: sans-serif;
+* {
+  font-family: sans-serif;
 }
 /* // .hero{
 //     margin-top: 50px;
@@ -8,23 +8,24 @@
 //     gap: 35px;
 //     justify-content: center;
 // } */
-.all-cards{
-    margin-top: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    justify-content: space-around;
+.all-cards {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+//   gap: 25px;
+  justify-content: space-around;
 }
-.card{
-    
-    padding: 10px;
-    border: 1px solid rgb(180, 177, 177);
-    width: 320px;
-    border-radius: 10px;
-    height: 380px;
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+.card {
+  padding: 10px;
+  border: 1px solid rgb(180, 177, 177);
+  // width: 320px;
+  height: 160px;
+  width: 267px;
 
+  border-radius: 10px;
+  // height: 380px;
+  // box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
 }
-.card p{
-    padding-top: 10px;
+.card p {
+  padding-top: 10px;
 }
